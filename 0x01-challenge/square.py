@@ -14,11 +14,11 @@ class Square():
         """ the attr given to the class """
         for key, value in kwargs.items():
             setattr(self, key, value)
-        self.width = self.height
+        self.height = self.width
 
     def area_of_my_square(self):
         """ Area of the square """
-        return self.width * self.width
+        return self.width * self.height
 
     def perimeter_of_my_square(self):
         """ Perimeter of the square"""
